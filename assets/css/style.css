@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(234, 232, 230);
+    color: rgb(245, 230, 192);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+header {
+    background-image: url("../img/tienda-gato.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    padding-left: 150px;
+    padding-top: 200px;
+}
+
+.titulo{
+    margin: 0;
+    font-size: 2 rem;
+}
+
+.bajada{
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.main{
+    height: 1300px;
+    padding: 70px;
+    padding-left: 100px;
+}
+div{
+    padding: 50px;
+}
+
+
+.productos {
+    display: flex;
+    align-items: center;
+}
+
+.pmain{
+    color: rgb(110, 102, 94);
+    font-size: 1.5rem;
+}
+.img{
+    border-radius: 7%;
+}
+
+footer {
+    background-color: rgb(85, 77, 70);
+    height: 10vh;
+}
+
+#textofooter {
+    text-align: center;
+    padding: 20px;
+    font-size: 1rem;
+}
+
